@@ -12,7 +12,7 @@ ___
 I'm a highly motivated student who always looking for perfection. That kind of people that get what they want by
 hard-working and purposefulness. Needy for constant self-improvement and I find comfort with it. 
 
-##Skills
+## Skills
 ___
 * HTML5
 * CSS
@@ -21,17 +21,17 @@ ___
 * Gulp
 * VCS, WebStorm
 
-##Code example
+## Code example
 ___
 ```js
 
 ```
 
-##Experience
+## Experience
 ___
 I'm going to make it soon :) 
 
-##Education
+## Education
 ___
 I'm studying at Omsk State Agrarian University named after P. Stolypin. 
 
@@ -39,7 +39,7 @@ I've been taking some courses too:
 * HTML academy
 
 
-##Languages
+## Languages
 * English - B1
 
 
