@@ -17,7 +17,7 @@ hard-working and purposefulness. Needy for constant self-improvement and I find 
 * JavaScript
 * Git (basic)
 * Gulp
-* VCS, WebStorm
+* VSC, WebStorm
 
 ## Code example
 
