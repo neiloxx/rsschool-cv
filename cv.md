@@ -24,13 +24,14 @@ hard-working and purposefulness. Needy for constant self-improvement and I find 
 ```js
 // Finds the greatest common divisor of two positive integers
 const mygcd = (x, y) => {
-    while (x != 0 && y != 0)
+    while (x != 0 && y != 0){
         if (x > y) {
             x %= y;
         } else {
             y %= x
         }
-    return x + y;
+        return x + y;
+    }
 }
 ```
 
