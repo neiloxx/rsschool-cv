@@ -24,7 +24,8 @@ body {
     margin-top: 50px;
 }
 
-.left-side__title {
+.left-side__title,
+.right-side__title_grey {
     margin: 20px 0 80px 0;
     font-size: 25px;
     font-weight: 400;
@@ -55,7 +56,9 @@ body {
 }
 
 .info-block__text,
-.block-list__item {
+.block-list__item,
+.info-block__text_grey,
+.block-list__item_grey {
     margin: 0;
     font-size: 15px;
     font-weight: 400;
@@ -75,7 +78,7 @@ body {
     list-style: none;
 }
 
-.block-list__link{
+.block-list__link {
     position: relative;
     font-size: 15px;
     font-weight: 400;
@@ -84,7 +87,7 @@ body {
     text-align: center;
 }
 
-.block-list__link:hover:after{
+.block-list__link:hover:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -92,4 +95,48 @@ body {
     height: 1px;
     width: 100%;
     background-color: #FAFAFA;
+}
+
+.main__right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.right-side__title {
+    margin: 50px 0 0 0;
+    font-size: 90px;
+    font-weight: 700;
+    color: #EAAAA0;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.right-side__subtitle{
+    margin: 0;
+    padding: 20px 0;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #919191;
+}
+
+.right-side__title_grey {
+    margin-bottom: 20px;
+}
+
+.right-side__title_grey,
+.info-block__text_grey,
+.block-list__item_grey {
+    color: #919191;
+}
+
+.info-block__code-example {
+    margin: 0;
+    background-color: #E6E6E6;
 }
